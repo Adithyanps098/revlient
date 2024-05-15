@@ -289,7 +289,7 @@
                 .then(async (response) => {
                     let json = await response.json();
                     if (response.status == 200) {
-                        window.location.href = 'formSubmitted.html';
+                        window.location.href = 'formSubmited.html';
                     } else {
                         console.log(response);
                         result.innerHTML = json.message;
