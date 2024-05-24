@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 
 <html class="no-js" lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
-<head>
-
+  <head>
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Revlient</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- script
     ================================================== -->
@@ -30,282 +28,354 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="images/title-logo.png" type="image/x-icon">
-    <link rel="icon" href="images/title-logo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="images/title-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="images/title-logo.png" type="image/x-icon" />
+  </head>
 
-</head>
-
-<body id="top">
-
+  <body id="top">
     <!-- header
     ================================================== -->
     <header class="s-header">
+      <div class="header-logo">
+        <h1>
+          <span class="site-logo" style="color: white">Revlient.</span>
+        </h1>
+      </div>
 
-        <div class="header-logo">
-            <h1>
-                <span class="site-logo" style="color: white;">Revlient.</span>
-            </h1>
+      <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"
+          ><span>Close</span></a
+        >
+
+        <div class="header-nav__content">
+          <h3>Navigation</h3>
+
+          <ul class="header-nav__list">
+            <li class="current">
+              <a class="smoothscroll" href="index.html" title="home">Home</a>
+            </li>
+          </ul>
+
+          <ul class="header-nav__social">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
         </div>
+        <!-- end header-nav__content -->
+      </nav>
+      <!-- end header-nav -->
 
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll" href="index.html" title="home">Home</a></li>
-                </ul>
-
-
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
+      <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
+      </a>
+    </header>
+    <!-- end s-header -->
 
     <!-- home
     ================================================== -->
 
-
-         <!-- contact
+    <!-- contact
     ================================================== -->
     <section id="contact" class="s-contact">
+      <div class="overlay"></div>
+      <div class="contact__line"></div>
 
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="subhead">Get a free audit report</h1>
-                <h4 class="display-2 display-2--light">Submit your website and contact details below</h4>
-            </div>
+      <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+          <h1 class="subhead">Get a free audit report</h1>
+          <h4 class="display-2 display-2--light">
+            Submit your website and contact details below
+          </h4>
         </div>
+      </div>
 
-        <div class="row contact-content" data-aos="fade-up">
+      <div class="row contact-content" data-aos="fade-up">
+        <div class="contact-primary">
+          <h3 class="h6">Send Us A Message</h3>
 
-            <div class="contact-primary">
-
-                <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="POST">
-
-                    <fieldset>
-                        <input type="hidden" name="access_key" value="cced5f30-1a2e-49af-8f69-2764ef15795e">
-                        <div class="form-field">
-                            <input name="clientName" type="text" id="contactName" placeholder="Your Name" value=""
-                                minlength="2" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="clientPhone" type="text" id="contactEmail" placeholder="Your mobile" value=""
-                                required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="clientEmail" type="email" id="contactEmail" placeholder="Your Email" value=""
-                                required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactWebsite" type="text" id="contactSubject" placeholder="Website link" value=""
-                                class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"
-                                cols="50" required="" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button type="submit" class="full-width btn--primary">Submit</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </fieldset>
-                </form>
-                <div id="result" style="color: red;"></div>
-                <!-- contact-warning -->
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
+          <form name="contactForm" id="contactForm" method="POST">
+            <fieldset>
+              <input
+                type="hidden"
+                name="access_key"
+                value="cced5f30-1a2e-49af-8f69-2764ef15795e"
+              />
+              <div class="form-field">
+                <input
+                  name="clientName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Your Name"
+                  value=""
+                  minlength="2"
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="clientPhone"
+                  type="text"
+                  id="contactEmail"
+                  placeholder="Your mobile"
+                  value=""
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="clientEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Your Email"
+                  value=""
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactWebsite"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Website link"
+                  value=""
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="10"
+                  cols="50"
+                  required=""
+                  class="full-width"
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button type="submit" class="full-width btn--primary">
+                  Submit
+                </button>
+                <div class="submit-loader">
+                  <div class="text-loader">Sending...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
                 </div>
-
-            </div> <!-- end contact-primary -->
-<!-- end contact-secondary -->
-
-        </div> <!-- end contact-content -->
-
-    </section> <!-- end s-contact -->
-
+              </div>
+            </fieldset>
+          </form>
+          <div id="result" style="color: red"></div>
+          <!-- contact-warning -->
+          <!-- contact-success -->
+          <div class="message-success">
+            Your message was sent, thank you!<br />
+          </div>
+        </div>
+        <!-- end contact-primary -->
+        <!-- end contact-secondary -->
+      </div>
+      <!-- end contact-content -->
+    </section>
+    <!-- end s-contact -->
 
     <!-- footer
     ================================================== -->
     <footer>
+      <div class="row footer-main">
+        <div class="col-six tab-full left footer-desc">
+          <div class="">
+            <h1 style="color: green">Revlient.</h1>
+          </div>
+          Rev up your Brand with us!!
+        </div>
 
-        <div class="row footer-main">
+        <div class="col-six tab-full right footer-subscribe">
+          <h4>Get Notified</h4>
+          <div class="subscribe-form">
+            <form id="mc-form" class="group" novalidate="true">
+              <input
+                type="email"
+                value=""
+                name="EMAIL"
+                class="email"
+                id="mc-email"
+                placeholder="Email Address"
+                required=""
+              />
+              <input type="submit" name="subscribe" value="Subscribe" />
+              <label for="mc-email" class="subscribe-message"></label>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- end footer-main -->
 
-            <div class="col-six tab-full left footer-desc">
+      <div class="row footer-bottom">
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright Revlient 2023</span>
+            <!-- <span>Site Template by <a href="">Devaduth</a></span>-->
+          </div>
 
-                <div class="">
-                    <h1 style="color: green;">Revlient.</h1>
-                </div>
-                Rev up your Brand with us!!
-            </div>
-
-            <div class="col-six tab-full right footer-subscribe">
-
-                <h4>Get Notified</h4>
-                <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email"
-                            placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div>
-
-            </div>
-
-        </div> <!-- end footer-main -->
-
-        <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Revlient 2023</span>
-                    <!-- <span>Site Template by <a href="">Devaduth</a></span>-->
-                </div>
-
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"
-                            aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"
+              ><i class="icon-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end footer-bottom -->
+    </footer>
+    <!-- end footer -->
 
     <!-- photoswipe background
     ================================================== -->
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
-                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
-                        title="Share"></button> <button class="pswp__button pswp__button--fs"
-                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
-                        title="Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
 
-    </div> <!-- end photoSwipe background -->
-
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
 
     <!-- preloader
     ================================================== -->
     <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+      <div id="loader">
+        <div class="line-scale-pulse-out">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
+      </div>
     </div>
-
+    <!--Chat bot script-->
+    <script>
+      window.embeddedChatbotConfig = {
+        chatbotId: "3JNBIqG9iAxPFUsUEPL1_",
+        domain: "www.chatbase.co",
+      };
+    </script>
+    <script
+      src="https://www.chatbase.co/embed.min.js"
+      chatbotId="3JNBIqG9iAxPFUsUEPL1_"
+      domain="www.chatbase.co"
+      defer
+    ></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
 
     <script>
-        const form = document.getElementById('contactForm');
-        const result = document.getElementById('result');
+      const form = document.getElementById("contactForm");
+      const result = document.getElementById("result");
 
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            const formData = new FormData(form);
-            const object = Object.fromEntries(formData);
-            const json = JSON.stringify(object);
-            result.innerHTML = "Please wait..."
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        result.innerHTML = "Please wait...";
 
-            fetch('https://api.web3forms.com/submit', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: json
-            })
-                .then(async (response) => {
-                    let json = await response.json();
-                    if (response.status == 200) {
-                        window.location.href = 'formSubmited.html';
-                    } else {
-                        console.log(response);
-                        result.innerHTML = json.message;
-                    }
-                })
-                .catch(error => {
-                    console.log(error);
-                    result.innerHTML =  "<span style='color: red;'> Something went wrong! </span>";
-                })
-                .then(function () {
-                    form.reset();
-                    setTimeout(() => {
-                        result.style.display = "none";
-                    }, 6000);
-                });
-        });
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: json,
+        })
+          .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+              window.location.href = "formSubmited.html";
+            } else {
+              console.log(response);
+              result.innerHTML = json.message;
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+            result.innerHTML =
+              "<span style='color: red;'> Something went wrong! </span>";
+          })
+          .then(function () {
+            form.reset();
+            setTimeout(() => {
+              result.style.display = "none";
+            }, 6000);
+          });
+      });
     </script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- Java Script
@@ -313,7 +383,5 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>

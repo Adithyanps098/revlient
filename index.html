@@ -113,7 +113,7 @@
                     Submit your website
                 </a>
 
-              <!-- <div class="home-content__buttons">
+                <!-- <div class="home-content__buttons">
 
                     <a href="#contact" class="smoothscroll btn btn--stroke">
                         Contact Us
@@ -122,7 +122,7 @@
                         More about us..
                     </a>
                     
-                     </div>--> 
+                     </div>-->
 
             </div>
 
@@ -552,6 +552,18 @@
         </div>
     </div>
 
+
+    <!--Chat bot script-->
+    <script>
+        window.embeddedChatbotConfig = {
+            chatbotId: "3JNBIqG9iAxPFUsUEPL1_",
+            domain: "www.chatbase.co"
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="3JNBIqG9iAxPFUsUEPL1_" domain="www.chatbase.co" defer>
+    </script>
+
+
     <script src="https://web3forms.com/client/script.js" async defer></script>
 
     <script>
@@ -576,7 +588,7 @@
                 .then(async (response) => {
                     let json = await response.json();
                     if (response.status == 200) {
-                        result.innerHTML =  "<span style='color: green;'> Form submitted successfully </span>";
+                        result.innerHTML = "<span style='color: green;'> Form submitted successfully </span>";
                     } else {
                         console.log(response);
                         result.innerHTML = json.message;
@@ -584,7 +596,7 @@
                 })
                 .catch(error => {
                     console.log(error);
-                    result.innerHTML =  "<span style='color: red;'> Something went wrong! </span>";
+                    result.innerHTML = "<span style='color: red;'> Something went wrong! </span>";
                 })
                 .then(function () {
                     form.reset();

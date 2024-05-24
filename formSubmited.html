@@ -34,15 +34,40 @@
     <link rel="icon" href="images/title-logo.png" type="image/x-icon">
 
     <style>
-        body { text-align: center; padding: 20px; font: 20px Helvetica, sans-serif; color: #efe8e8; }
-        @media (min-width: 768px){
-          body{ padding-top: 150px; }
+        body {
+            text-align: center;
+            padding: 20px;
+            font: 20px Helvetica, sans-serif;
+            color: #efe8e8;
         }
-        h1 { font-size: 50px; }
-        article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
-        a { color: #dc8100; text-decoration: none; }
-        a:hover { color: #efe8e8; text-decoration: none; }
-      </style>
+
+        @media (min-width: 768px) {
+            body {
+                padding-top: 150px;
+            }
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        article {
+            display: block;
+            text-align: left;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #dc8100;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #efe8e8;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body bgcolor="2e2929" id="top">
@@ -93,9 +118,21 @@
     <article>
         <h2 style="padding-top: 50px; color: blanchedalmond;">We&rsquo;ll Contact you soon!</h2>
         <div>
-            <h4 style="color: blanchedalmond;">Your website is currently under review, &rsquo; and we will be sure to contact you as soon as it is completed. Please be aware that this process may take up &rsquo;to 24 hours, so we kindly ask for your patience.</h4>
+            <h4 style="color: blanchedalmond;">Your website is currently under review, &rsquo; and we will be sure to
+                contact you as soon as it is completed. Please be aware that this process may take up &rsquo;to 24
+                hours, so we kindly ask for your patience.</h4>
             <h5 style="color: #dc8100;">&mdash; The Team</h5>
-        </div>    
+        </div>
+        <!--Chat bot script-->
+        <script>
+            window.embeddedChatbotConfig = {
+                chatbotId: "3JNBIqG9iAxPFUsUEPL1_",
+                domain: "www.chatbase.co"
+            }
+        </script>
+        <script src="https://www.chatbase.co/embed.min.js" chatbotId="3JNBIqG9iAxPFUsUEPL1_" domain="www.chatbase.co"
+            defer>
+            </script>
 </body>
 
 </html>
